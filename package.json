@@ -1,0 +1,27 @@
+{
+  "name": "johnbrewster.staruml-requirements-reindex",
+  "title": "Reindex Requirement's id",
+  "version": "0.1.0",
+  "keywords": [ "Requirements", "StarUML", "UML", "SysML"],
+  "description": "Reindex the id fields in Requirement heirarchy",
+  "main": "main.js",
+  "repository": {
+    "type":"git",
+    "url":""
+  }
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "author": {
+    "name": "John R. Brewster",
+    "email": "john@roostertailsoftware.com",
+    "url": "https://roostertailsoftware.com"
+  },
+  "engines": {
+    "staruml": ">=4.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

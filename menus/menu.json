@@ -1,0 +1,14 @@
+{
+    "menu": [
+        {
+            "id":"tools",
+            "submenu": [
+                {
+                    "label":    "Reindex Requirements id",
+                    "id":       "tool.staruml-requirements-reindex",
+                    "command":  "staruml-requirements-reindex:start-reindex"
+                }
+            ]
+        }
+    ]
+}

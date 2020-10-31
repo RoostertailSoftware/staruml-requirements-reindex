@@ -1,0 +1,22 @@
+{
+    "id": "staruml-requirements-reindex",
+    "name": "Req. Reindex",
+    "schema": {
+        "typescript.gen": {
+            "text": "Reindex Requirements id Preferences",
+            "type": "section"
+        },
+        "typescript.gen.tsDoc": {
+            "text": "Index with numbers and Letters",
+            "description": "Use scheme of 1.A.1.a.1.i. 'OFF' uses only number 1.2.3.4...",
+            "type": "check",
+            "default": false
+        },
+        "typescript.gen.prefix": {
+            "text": "Requirement Prefix",
+            "description": "Prefix for all Requirement number",
+            "type": "string",
+            "default": "REQ"
+        }
+    }
+}
