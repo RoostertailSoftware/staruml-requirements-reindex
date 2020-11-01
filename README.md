@@ -4,7 +4,7 @@ This extension will walk thru any level selected Requirment and update the id fi
 
 ## Installation
 
-Open Extension Manager *(tools > Extension Manger)* and select *Registry* Tab and enter "merge" in search box. You can find this extion and click **install** button.
+Open Extension Manager *(tools > Extension Manger)* and select *Registry* Tab and enter "Requriements" in search box. You can find this extension and click **install** button.
 
 ## Usage
 
