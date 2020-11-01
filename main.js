@@ -3,9 +3,6 @@
  *
  */
 
-// Toolbar Button
-const _ = require( 'lodash' );
-
 const REQUIREMENTTYPE = "SysMLRequirementView"
 const ERRORS = {
     NOSELECTION: "Select a Requirements Node to being.",
@@ -32,8 +29,8 @@ let fixIdAndRecurse = ( /* SysMLRequirementView.model */ model, /* string */ id,
 let startUpdateRecursion = ( /* SysMLRequirementView.model */ mainModel  ) => {
     let id = mainModel.id;
 
-    _.forEach( mainModel.ownedElements, ( element, index ) =>{
-        fixIdAndRecurse( element, id, index )
+    mainModel.ownedElements.forEach(  ( element, index ) => {
+        fixIdAndRecurse( element, id, index );
     } );
 
     return;
