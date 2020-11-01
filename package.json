@@ -7,8 +7,8 @@
   "main": "main.js",
   "repository": {
     "type":"git",
-    "url":""
-  }
+    "url":"https://github.com/RoostertailSoftware/staruml-requirements-reindex.git"
+  },
   "scripts": {
     "test": "npm run tests"
   },
