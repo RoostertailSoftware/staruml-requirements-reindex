@@ -8,7 +8,30 @@ Open Extension Manager *(tools > Extension Manger)* and select *Registry* Tab an
 
 ## Usage
 
-To update the child id fields in a Requirements Tree select the first Requirements Element then select **Tools > Reindex Requirements id (Cmd-i or Ctrl-i)**
+To update all the children of a Requirment's tree select the first Requirement Element then select **Tools > Reindex Requirements id** or press the Cmd-i or Ctrl-i shortcut keys.
+
+The requirments will be reindex with the indexing scheme of:
+````
+1 <--- start Requirements Reindexing on this node
+    1.1
+        1.1.1
+        1.1.2
+            1.1.1.1
+            1.1.1.2
+                1.1.1.2.1
+    1.2
+        1.2.1
+            1.2.1.1
+            1.2.1.2
+        1.2.2
+    1.3
+    .
+    .
+    .
+```
+## Preferences
+Currently, there are two preferences which are ignored.
+
 
 ---
 Licensed under the MIT license (See LICENSE file)
