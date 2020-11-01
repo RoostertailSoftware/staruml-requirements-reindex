@@ -1,8 +1,6 @@
 /*
  * copyright (c) 2020 Roostertail Software. All right reserved.
  *
-
-
  */
 
 // Toolbar Button
