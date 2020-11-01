@@ -7,7 +7,6 @@ This extension will walk thru any level selected Requirment and update the id fi
 Open Extension Manager *(tools > Extension Manger)* and select *Registry* Tab and enter "Requriements" in search box. You can find this extension and click **install** button.
 
 ## Usage
-
 To update all the children of a Requirment's tree select the first Requirement Element then select **Tools > Reindex Requirements id** or press the Cmd-i or Ctrl-i shortcut keys.
 
 The requirments will be reindex with the indexing scheme of:
@@ -38,7 +37,7 @@ Currently, there are two preferences which are ignored.
 ## Todo:
 ### Different Indexing
 * work on Reindexing using the following
-* This would be selected in Preferences
+* This would be selected in the Preferences Pane
 
 ```
 1
@@ -56,10 +55,17 @@ Currently, there are two preferences which are ignored.
     .
     .
 ```
+where:
+* [1 .. n]
+* [A .. AA, AB .. ZZ+]
+* [i .. mmm+] (roman numerals)
+* [a .. aa,ab .. zz+]
+* [1 .. n]
+
 ### Requirement Prefix
 
 * Work on getting a Prefix before the id index
-* this is setup by the preference
+* this is set in the preference pane
 
 ```
 REQ 1
