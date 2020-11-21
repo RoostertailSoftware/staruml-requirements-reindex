@@ -45,7 +45,7 @@ let startReindex = () => {
         return;
     }
 
-    console.log( views[0])
+    //console.log( views[0])
     // check this is a Requirements Node
     if( views[0].constructor.name !=  REQUIREMENTTYPE ){
         app.toast.info( ERRORS.NOTREQUIREMENT );
