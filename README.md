@@ -77,15 +77,5 @@ REQ 1
 .
 ```
 
-### Requirements Matrix
-Create an output Requirements Matrix that will have the Requirement and some of the things it
-
-Number | id | name | text | owner | Refines | Verified by | Satisifies
-:-- | :-- | :-- | :-- | :-- | :-- | :-- | :--
-1 | 1 | Performance | | | | |
-2 | 1.4 | Speed | | 1 | | ||
-3 | 1.4.1 | Must go fast | | 1.4 | ||
-
-
 ---
 ##### Licensed under the MIT license (See LICENSE file)
